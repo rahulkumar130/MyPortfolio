@@ -258,8 +258,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('Form submission failed');
             }
         } catch (err) {
-            btn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> <span>Failed — try again</span>';
-            btn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
+            if (window.location.protocol === 'file:') {
+                btn.innerHTML = '<i class="fas fa-info-circle"></i> <span>Local Test - Deploy to Enable</span>';
+                btn.style.background = 'linear-gradient(135deg, #f59e0b, #d97706)';
+            } else {
+                btn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> <span>Failed — try again</span>';
+                btn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
+            }
         }
 
         setTimeout(() => {
