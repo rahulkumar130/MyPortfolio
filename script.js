@@ -237,6 +237,12 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.disabled = true;
 
         try {
+            // Local testing check
+            if (window.location.protocol === 'file:') {
+                console.warn('Netlify Forms only work when deployed on Netlify. Local file submission is not supported.');
+                throw new Error('Local testing not supported');
+            }
+
             const formData = new FormData(contactForm);
             const response = await fetch('/', {
                 method: 'POST',
