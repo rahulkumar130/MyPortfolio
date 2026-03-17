@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kumar | Data Science Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Rahul Kumar – B.Tech CSE (Data Science) student, aspiring Data Analyst passionate about turning data into actionable insights.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HOME / HERO ===== -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+        <div class="hero-gradient-orb hero-orb-3"></div>
+        <div class="container hero-content">
+            <p class="hero-greeting animate-on-scroll">
+                <span class="greeting-line"></span>
+                Hello, I'm
+                <span class="greeting-line"></span>
+            </p>
+            <h1 class="hero-name animate-on-scroll">Rahul Kumar</h1>
+            <div class="hero-titles animate-on-scroll">
+                <p class="hero-title-line hero-title-primary">
+                    <span class="typewriter" id="typewriter1"></span>
+                    <span class="typewriter-cursor">|</span>
+                </p>
+                <p class="hero-title-line hero-title-secondary">
+                    <span class="title-divider">&mdash;</span>
+                    <span class="typewriter" id="typewriter2"></span>
+                    <span class="title-divider">&mdash;</span>
+                </p>
+            </div>
+            <p class="hero-subtitle animate-on-scroll">
+                <i class="fas fa-graduation-cap"></i>
+                B.Tech CSE (Data Science) &bull; Lovely Professional University
+            </p>
+            <div class="hero-buttons animate-on-scroll">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View Projects
+                </a>
+                <a href="assets/General CV Rahul Kumar.pdf" download class="btn btn-glass">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="hero-socials animate-on-scroll">
+                <a href="https://linkedin.com/in/rahul-kumar-ds" target="_blank" rel="noopener" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/rahulkumar130" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:er.rahulkumar130@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" id="scrollIndicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">Get To Know</p>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <div class="about-image-wrapper">
+                        <img src="assets/profile.png" alt="Rahul Kumar - Data Scientist" class="about-photo">
+                        <div class="about-image-border"></div>
+                        <div class="about-image-glow"></div>
+                    </div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <p class="about-text">
+                        I'm a passionate <strong>B.Tech Computer Science & Engineering (Data Science)</strong> student
+                        at
+                        Lovely Professional University with a CGPA of <strong>6.38</strong>. I thrive on turning raw
+                        data
+                        into meaningful insights and love every step of the data journey — from cleaning and
+                        exploration to visualization and storytelling.
+                    </p>
+                    <p class="about-text">
+                        My toolkit spans <strong>Python, Power BI, Excel, and SQL</strong>, and I'm constantly exploring
+                        new ways to leverage data to drive decisions. Whether it's building interactive dashboards or
+                        performing exploratory data analysis, I approach every project with curiosity and dedication.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="75">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">DSA Problems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">What I Know</p>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category animate-on-scroll" data-color="orange">
+                    <div class="skill-category-icon-bg">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #00599C">
+                                <span>C++</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #f89820">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #3776AB">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="skill-category animate-on-scroll" data-color="blue">
+                    <div class="skill-category-icon-bg">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #E34F26">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #1572B6">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science Libraries -->
+                <div class="skill-category animate-on-scroll" data-color="green">
+                    <div class="skill-category-icon-bg">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Data Science Libraries</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #013243">
+                                <span>NP</span>
+                            </div>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #150458">
+                                <span>PD</span>
+                            </div>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #11557C">
+                                <span>MPL</span>
+                            </div>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #4EAF91">
+                                <span>SB</span>
+                            </div>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #F7931E">
+                                <span>SK</span>
+                            </div>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #0054A6">
+                                <span>SP</span>
+                            </div>
+                            <span>SciPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category animate-on-scroll" data-color="purple">
+                    <div class="skill-category-icon-bg">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #00758F">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #F2C811">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #217346">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <span>Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #6e5494">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-icon" style="--skill-clr: #F37626">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <span>Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">Experience & Education</p>
+                <h2 class="section-title">My Journey</h2>
+            </div>
+            <div class="timeline">
+                <!-- Internship -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Summer Training — OOPs using C++</h3>
+                                <p class="timeline-company"><i class="fas fa-university"></i> Lovely Professional
+                                    University</p>
+                            </div>
+                            <span class="timeline-date">May 2025 – Jun 2025</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Applied OOP principles to develop structured C++ programs and improve code reusability.
+                            </li>
+                            <li>Enhanced debugging, optimization, and project implementation skills through guided
+                                hands-on tasks.</li>
+                            <li>Worked with tech stacks including C++, VS Code, and CodeBlocks.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>C++</span>
+                            <span>OOP</span>
+                            <span>VS Code</span>
+                            <span>CodeBlocks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Graduation -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title"><i class="fas fa-graduation-cap"></i> Graduation
+                                </h3>
+                                <p class="timeline-company"><i class="fas fa-school"></i> Lovely Professional
+                                    University,
+                                    Phagwara, Punjab, India</p>
+                            </div>
+                            <span class="timeline-date">Aug 2023 – Current</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Currently pursuing a Bachelor of technology (B.Tech) degree.</li>
+                            <li>CGPA: <strong>6.38</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Intermediate -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title"><i class="fas fa-graduation-cap"></i> Intermediate (12th)
+                                </h3>
+                                <p class="timeline-company"><i class="fas fa-school"></i> D A V R B Kedia School,
+                                    Birganj, Nepal</p>
+                            </div>
+                            <span class="timeline-date">Aug 2020 – Jul 2021</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Completed Intermediate education with a strong academic foundation.</li>
+                            <li>Percentage: <strong>87.6%</strong></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Matriculation -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title"><i class="fas fa-graduation-cap"></i> Matriculation (10th)
+                                </h3>
+                                <p class="timeline-company"><i class="fas fa-school"></i> Devasthallya Vidyapeeth,
+                                    Motihari, Bihar</p>
+                            </div>
+                            <span class="timeline-date">Aug 2018 – Jul 2019</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Completed Matriculation with solid fundamentals in science and mathematics.</li>
+                            <li>Percentage: <strong>68.6%</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS ===== -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">Milestones</p>
+                <h2 class="section-title">Achievements</h2>
+            </div>
+
+            <!-- Certificates -->
+            <div class="achievement-block animate-on-scroll">
+                <h3 class="achievement-block-title">
+                    <i class="fas fa-award"></i> Certificates
+                </h3>
+                <div class="certificates-slider" id="certificatesSlider">
+                    <div class="certificates-track" id="certificatesTrack">
+                        <div class="certificate-card"
+                            data-cert-img="assets/Introduction to Internet of Things_Certificate_Rahul.jpg">
+                            <div class="certificate-image">
+                                <img src="assets/Introduction to Internet of Things_Certificate_Rahul.jpg"
+                                    alt="Introduction to Internet of Things" loading="lazy">
+                                <div class="certificate-overlay">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Introduction to Internet of Things</h4>
+                                <p>NPTEL</p>
+                            </div>
+                        </div>
+                        <div class="certificate-card" data-cert-img="assets/SummerTraining12300839_page-0001.jpg">
+                            <div class="certificate-image">
+                                <img src="assets/SummerTraining12300839_page-0001.jpg" alt="Summer Training"
+                                    loading="lazy">
+                                <div class="certificate-overlay">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Summer Training</h4>
+                                <p>Skill Development - LPU</p>
+                            </div>
+                        </div>
+                        <div class="certificate-card" data-cert-img="assets/Hackathon Certificate UpGrad.jpg">
+                            <div class="certificate-image">
+                                <img src="assets/Hackathon Certificate UpGrad.jpg" alt="UpGrad Hackathon"
+                                    loading="lazy">
+                                <div class="certificate-overlay">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <h4>UpGrad Hackathon</h4>
+                                <p>UpGrad Campus</p>
+                            </div>
+                        </div>
+                        <div class="certificate-card" data-cert-img="assets/PowerBI_Certificate.jpg">
+                            <div class="certificate-image">
+                                <img src="assets/PowerBI_Certificate.jpg" alt="Power BI" loading="lazy">
+                                <div class="certificate-overlay">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Power BI</h4>
+                                <p>Office Master</p>
+                            </div>
+                        </div>
+                        <div class="certificate-card" data-cert-img="assets/Bits and Bytes Certificate.jpg">
+                            <div class="certificate-image">
+                                <img src="assets/Bits and Bytes Certificate.jpg"
+                                    alt="Bits and Bytes Of Computer Networking" loading="lazy">
+                                <div class="certificate-overlay">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Bits and Bytes Of Computer Networking</h4>
+                                <p>Google</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate Lightbox Modal -->
+            <div class="cert-lightbox" id="certLightbox">
+                <button class="cert-lightbox-close" id="certLightboxClose" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="cert-lightbox-content">
+                    <img src="" alt="Certificate Full View" id="certLightboxImg">
+                </div>
+            </div>
+
+            <!-- LeetCode -->
+            <div class="achievement-block animate-on-scroll">
+                <h3 class="achievement-block-title">
+                    <i class="fas fa-code"></i> LeetCode
+                </h3>
+                <div class="leetcode-card">
+                    <div class="leetcode-badge">
+                        <img src="assets/leetcode_badge.png" alt="LeetCode 75+ Problems Solved">
+                    </div>
+                    <div class="leetcode-info">
+                        <div class="leetcode-score">
+                            <span class="leetcode-number" data-count="75">0</span><span class="leetcode-plus">+</span>
+                            <span class="leetcode-label">Problems Solved</span>
+                        </div>
+                        <div class="leetcode-stats">
+                            <div class="lc-stat lc-easy">
+                                <span class="lc-dot"></span>
+                                <span>Easy</span>
+                            </div>
+                            <div class="lc-stat lc-medium">
+                                <span class="lc-dot"></span>
+                                <span>Medium</span>
+                            </div>
+                            <div class="lc-stat lc-hard">
+                                <span class="lc-dot"></span>
+                                <span>Hard</span>
+                            </div>
+                        </div>
+                        <p class="leetcode-desc">Consistently solving data structures and algorithm challenges to
+                            sharpen problem-solving skills.</p>
+                        <a href="https://leetcode.com/u/rahulkumar130/" target="_blank" rel="noopener"
+                            class="btn btn-glass btn-sm">
+                            <i class="fas fa-external-link-alt"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GeeksforGeeks -->
+            <div class="achievement-block animate-on-scroll">
+                <h3 class="achievement-block-title">
+                    <i class="fas fa-code"></i> GeeksforGeeks
+                </h3>
+                <div class="leetcode-card">
+                    <div class="leetcode-badge">
+                        <img src="assets/image.png" alt="LeetCode 50+ Problems Solved">
+                    </div>
+                    <div class="leetcode-info">
+                        <div class="leetcode-score">
+                            <span class="leetcode-number" data-count="50">0</span><span class="leetcode-plus">+</span>
+                            <span class="leetcode-label">Problems Solved</span>
+                        </div>
+                        <div class="leetcode-stats">
+                            <div class="lc-stat lc-easy">
+                                <span class="lc-dot"></span>
+                                <span>Easy</span>
+                            </div>
+                            <div class="lc-stat lc-medium">
+                                <span class="lc-dot"></span>
+                                <span>Medium</span>
+                            </div>
+                            <div class="lc-stat lc-hard">
+                                <span class="lc-dot"></span>
+                                <span>Hard</span>
+                            </div>
+                        </div>
+                        <p class="leetcode-desc">Consistently solving data structures and algorithm challenges to
+                            sharpen problem-solving skills.</p>
+                        <a href="https://www.geeksforgeeks.org/profile/errahulkumar130" target="_blank" rel="noopener"
+                            class="btn btn-glass btn-sm">
+                            <i class="fas fa-external-link-alt"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- NGO / Volunteer Work -->
+            <div class="achievement-block animate-on-scroll">
+                <h3 class="achievement-block-title">
+                    <i class="fas fa-hands-helping"></i> Volunteer & NGO Work
+                </h3>
+                <div class="ngo-card">
+                    <div class="ngo-image">
+                        <img src="assets/ngophoto.jpg" alt="NGO Volunteer Work">
+                    </div>
+                    <div class="ngo-info">
+                        <h4>Community Volunteer</h4>
+                        <p class="ngo-org"><i class="fas fa-heart"></i> Sri Lal Deo Meera Foundation</p>
+                        <p class="ngo-desc">
+                            To support doctors in distributing essential medicines and hygiene products to rural
+                            communities.
+                        </p>
+                        <div class="ngo-tags">
+                            <span>Social Impact</span>
+                            <span>Volunteer</span>
+                            <span>Community</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">What I've Built</p>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card-wrapper animate-on-scroll">
+                    <div class="project-card-inner">
+                        <!-- Front Face -->
+                        <div class="project-card-face project-card-front">
+                            <img src="assets/bankmarketingdashboard.png" alt="Bank Marketing Campaign Dashboard"
+                                class="project-front-img">
+                            <div class="project-front-overlay">
+                                <h3 class="project-front-title">Bank Marketing Campaign Dashboard</h3>
+                                <span class="project-front-hint"><i class="fas fa-sync-alt"></i> Hover to see
+                                    details</span>
+                            </div>
+                        </div>
+                        <!-- Back Face -->
+                        <div class="project-card-face project-card-back">
+                            <div class="project-card-top">
+                                <div class="project-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/rahulkumar130/Data-Visualization" target="_blank"
+                                        rel="noopener" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Bank Marketing Campaign Dashboard</h3>
+                            <p class="project-description">
+                                Developed a Power BI dashboard for Bank Marketing Campaign analysis. Performed data
+                                cleaning and
+                                preprocessing using Power Query. Created data visualizations (bar charts, donut charts,
+                                scatter
+                                plots, slicers) for campaign analysis.
+                            </p>
+                            <div class="project-tech">
+                                <span>Power BI</span>
+                                <span>Power Query</span>
+                                <span>Data Cleaning</span>
+                                <span>Visualization</span>
+                            </div>
+                            <span class="project-date">Oct 2025 – Jan 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card-wrapper animate-on-scroll">
+                    <div class="project-card-inner">
+                        <!-- Front Face -->
+                        <div class="project-card-face project-card-front">
+                            <img src="assets/loksabha_dasboard.png" alt="Lok Sabha Election 2024 Dashboard"
+                                class="project-front-img">
+                            <div class="project-front-overlay">
+                                <h3 class="project-front-title">Lok Sabha Election 2024 Dashboard</h3>
+                                <span class="project-front-hint"><i class="fas fa-sync-alt"></i> Hover to see
+                                    details</span>
+                            </div>
+                        </div>
+                        <!-- Back Face -->
+                        <div class="project-card-face project-card-back">
+                            <div class="project-card-top">
+                                <div class="project-icon">
+                                    <i class="fas fa-vote-yea"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/rahulkumar130/Data-Management" target="_blank"
+                                        rel="noopener" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Lok Sabha Election 2024 Dashboard</h3>
+                            <p class="project-description">
+                                Developed an interactive Excel dashboard to analyze Lok Sabha Election 2024 results.
+                                Cleaned and
+                                structured raw election data to uncover voting trends and party performance across
+                                states.
+                                Implemented pivot tables, charts, and slicers for dynamic filtering and analysis.
+                            </p>
+                            <div class="project-tech">
+                                <span>MS Excel</span>
+                                <span>Pivot Tables</span>
+                                <span>Data Analysis</span>
+                                <span>Dashboard</span>
+                            </div>
+                            <span class="project-date">Mar 2025 – Apr 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">Get in Touch</p>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <p class="contact-intro">I'm always open to discussing new opportunities, collaborations, or just a
+                        friendly chat about data!</p>
+                    <div class="contact-cards">
+                        <a href="mailto:er.rahulkumar130@gmail.com" class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>er.rahulkumar130@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+919939818775" class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91-9939818775</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/rahul-kumar-ds" target="_blank" rel="noopener"
+                            class="contact-card">
+                            <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/rahul-kumar-ds</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/rahulkumar130" target="_blank" rel="noopener" class="contact-card">
+                            <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/rahulkumar130</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form animate-on-scroll" id="contactForm" name="contact" method="POST"
+                    data-netlify="true" netlify>
+                    <input type="hidden" name="form-name" value="contact">
+                    <div class="form-group">
+                        <input type="text" id="formName" name="name" placeholder=" " required>
+                        <label for="formName">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="formEmail" name="email" placeholder=" " required>
+                        <label for="formEmail">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="formSubject" name="subject" placeholder=" " required>
+                        <label for="formSubject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="formMessage" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="formMessage">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/rahul-kumar-ds" target="_blank" rel="noopener"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/rahulkumar130" target="_blank" rel="noopener" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="mailto:er.rahulkumar130@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="footer-copy">&copy; Rahul Kumar &mdash; Built with passion for data and technology.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
