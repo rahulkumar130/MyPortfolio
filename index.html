@@ -11,7 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,8 +23,8 @@
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
@@ -61,9 +62,9 @@
                 B.Tech CSE (Data Science) &bull; Lovely Professional University
             </p>
             <div class="hero-buttons animate-on-scroll">
-                <a href="#projects" class="btn btn-primary">
-                    <i class="fas fa-rocket"></i> View Projects
-                </a>
+            <a href="https://youtube.com/shorts/-BEBnxXfi1g?feature=share" class="btn btn-primary">
+                <i class="fa-brands fa-youtube me-2"></i> Video CV
+            </a>
                 <a href="assets/General CV Rahul Kumar.pdf" download class="btn btn-glass">
                     <i class="fas fa-download"></i> Download Resume
                 </a>
@@ -271,6 +272,103 @@
                                 <i class="fas fa-book-open"></i>
                             </div>
                             <span>Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <p class="section-tag">What I've Built</p>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card-wrapper animate-on-scroll">
+                    <div class="project-card-inner">
+                        <!-- Front Face -->
+                        <div class="project-card-face project-card-front">
+                            <img src="assets/bankmarketingdashboard.png" alt="Bank Marketing Campaign Dashboard"
+                                class="project-front-img">
+                            <div class="project-front-overlay">
+                                <h3 class="project-front-title">Bank Marketing Campaign Dashboard</h3>
+                                <span class="project-front-hint"><i class="fas fa-sync-alt"></i> Hover to see
+                                    details</span>
+                            </div>
+                        </div>
+                        <!-- Back Face -->
+                        <div class="project-card-face project-card-back">
+                            <div class="project-card-top">
+                                <div class="project-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/rahulkumar130/Data-Visualization" target="_blank"
+                                        rel="noopener" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Bank Marketing Campaign Dashboard</h3>
+                            <p class="project-description">
+                                Developed a Power BI dashboard for Bank Marketing Campaign analysis. Performed data
+                                cleaning and
+                                preprocessing using Power Query. Created data visualizations (bar charts, donut charts,
+                                scatter
+                                plots, slicers) for campaign analysis.
+                            </p>
+                            <div class="project-tech">
+                                <span>Power BI</span>
+                                <span>Power Query</span>
+                                <span>Data Cleaning</span>
+                                <span>Visualization</span>
+                            </div>
+                            <span class="project-date">Oct 2025 – Jan 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card-wrapper animate-on-scroll">
+                    <div class="project-card-inner">
+                        <!-- Front Face -->
+                        <div class="project-card-face project-card-front">
+                            <img src="assets/loksabha_dasboard.png" alt="Lok Sabha Election 2024 Dashboard"
+                                class="project-front-img">
+                            <div class="project-front-overlay">
+                                <h3 class="project-front-title">Lok Sabha Election 2024 Dashboard</h3>
+                                <span class="project-front-hint"><i class="fas fa-sync-alt"></i> Hover to see
+                                    details</span>
+                            </div>
+                        </div>
+                        <!-- Back Face -->
+                        <div class="project-card-face project-card-back">
+                            <div class="project-card-top">
+                                <div class="project-icon">
+                                    <i class="fas fa-vote-yea"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/rahulkumar130/Data-Management" target="_blank"
+                                        rel="noopener" title="View on GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Lok Sabha Election 2024 Dashboard</h3>
+                            <p class="project-description">
+                                Developed an interactive Excel dashboard to analyze Lok Sabha Election 2024 results.
+                                Cleaned and
+                                structured raw election data to uncover voting trends and party performance across
+                                states.
+                                Implemented pivot tables, charts, and slicers for dynamic filtering and analysis.
+                            </p>
+                            <div class="project-tech">
+                                <span>MS Excel</span>
+                                <span>Pivot Tables</span>
+                                <span>Data Analysis</span>
+                                <span>Dashboard</span>
+                            </div>
+                            <span class="project-date">Mar 2025 – Apr 2025</span>
                         </div>
                     </div>
                 </div>
@@ -572,106 +670,6 @@
             </div>
         </div>
     </section>
-
-    <!-- ===== PROJECTS ===== -->
-    <section id="projects" class="section projects-section">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <p class="section-tag">What I've Built</p>
-                <h2 class="section-title">Projects</h2>
-            </div>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card-wrapper animate-on-scroll">
-                    <div class="project-card-inner">
-                        <!-- Front Face -->
-                        <div class="project-card-face project-card-front">
-                            <img src="assets/bankmarketingdashboard.png" alt="Bank Marketing Campaign Dashboard"
-                                class="project-front-img">
-                            <div class="project-front-overlay">
-                                <h3 class="project-front-title">Bank Marketing Campaign Dashboard</h3>
-                                <span class="project-front-hint"><i class="fas fa-sync-alt"></i> Hover to see
-                                    details</span>
-                            </div>
-                        </div>
-                        <!-- Back Face -->
-                        <div class="project-card-face project-card-back">
-                            <div class="project-card-top">
-                                <div class="project-icon">
-                                    <i class="fas fa-chart-pie"></i>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/rahulkumar130/Data-Visualization" target="_blank"
-                                        rel="noopener" title="View on GitHub"><i class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="project-title">Bank Marketing Campaign Dashboard</h3>
-                            <p class="project-description">
-                                Developed a Power BI dashboard for Bank Marketing Campaign analysis. Performed data
-                                cleaning and
-                                preprocessing using Power Query. Created data visualizations (bar charts, donut charts,
-                                scatter
-                                plots, slicers) for campaign analysis.
-                            </p>
-                            <div class="project-tech">
-                                <span>Power BI</span>
-                                <span>Power Query</span>
-                                <span>Data Cleaning</span>
-                                <span>Visualization</span>
-                            </div>
-                            <span class="project-date">Oct 2025 – Jan 2026</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card-wrapper animate-on-scroll">
-                    <div class="project-card-inner">
-                        <!-- Front Face -->
-                        <div class="project-card-face project-card-front">
-                            <img src="assets/loksabha_dasboard.png" alt="Lok Sabha Election 2024 Dashboard"
-                                class="project-front-img">
-                            <div class="project-front-overlay">
-                                <h3 class="project-front-title">Lok Sabha Election 2024 Dashboard</h3>
-                                <span class="project-front-hint"><i class="fas fa-sync-alt"></i> Hover to see
-                                    details</span>
-                            </div>
-                        </div>
-                        <!-- Back Face -->
-                        <div class="project-card-face project-card-back">
-                            <div class="project-card-top">
-                                <div class="project-icon">
-                                    <i class="fas fa-vote-yea"></i>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/rahulkumar130/Data-Management" target="_blank"
-                                        rel="noopener" title="View on GitHub"><i class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="project-title">Lok Sabha Election 2024 Dashboard</h3>
-                            <p class="project-description">
-                                Developed an interactive Excel dashboard to analyze Lok Sabha Election 2024 results.
-                                Cleaned and
-                                structured raw election data to uncover voting trends and party performance across
-                                states.
-                                Implemented pivot tables, charts, and slicers for dynamic filtering and analysis.
-                            </p>
-                            <div class="project-tech">
-                                <span>MS Excel</span>
-                                <span>Pivot Tables</span>
-                                <span>Data Analysis</span>
-                                <span>Dashboard</span>
-                            </div>
-                            <span class="project-date">Mar 2025 – Apr 2025</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
     <!-- ===== CONTACT ===== -->
     <section id="contact" class="section contact-section">
         <div class="container">
@@ -758,13 +756,10 @@
             </div>
         </div>
     </footer>
-
     <!-- Back to Top -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">
         <i class="fas fa-arrow-up"></i>
     </button>
-
     <script src="script.js"></script>
 </body>
-
 </html>
